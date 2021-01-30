@@ -1,1 +1,1 @@
-console.log("hello");
+function openMenu(){document.getElementById("header").classList.toggle("active")}
