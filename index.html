@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -11,20 +13,162 @@
 
 <body>
     <div class="wraper">
-        <header class="header">
-            <div class="header__logo" onclick="openMenu()">
-                <img class="logo__svg"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SVG_logo.svg/1200px-SVG_logo.svg.png">
+        <div class="main">
+            <div class="container">
+                <header class="header">
+                    <div class="header__nav">
+                        <a href="#" class="nav__link">Payment</a>
+                        <a href="#" class="nav__link">About us</a>
+                        <a href="#" class="nav__link">Contacts</a>
+                    </div>
+                    <div class="header__logo">
+                        <img src="images/logo classic.png" alt="logo" class="logo__classic">
+                    </div>
+                    <div class="header__info">
+                        <span class="info__time">Daily 11am - 9pm</span>
+                        <img src="images/tel.img.png" alt="tel" class="info__tel_img">
+                        <span class="info__tel">0 800 33 08 98</span>
+                    </div>
+                </header>
             </div>
-            <div class="header__nav" id="header">
-                <a href="#" class="nav__link">home</a>
-                <a href="#" class="nav__link">about</a>
-                <a href="#" class="nav__link">contact</a>
-                <a href="#" class="nav__link">galery</a>
-                <a href="#" class="nav__link">photo</a>
-                <a href="#" class="nav__link">list</a>
+            <!--/container-->
+            <div class="title">
+                <div class="title__images">
+                    <img src="images/background.png" alt="" class="images__background">
+                    <img src="images/piza 2.png" alt="" class="images__pizza">
+                </div>
+                <div class="title__text">
+                    <h1 class="text__title">Food delivery in Kovel</h1>
+                    <p class="text__subtitle">If you decide to relax or have unexpected guests, call us. We make sure
+                        that your vacation is comfortable, enjoyable and delicious</p>
+                </div>
+                <div class="title__free">
+                    <img src="images/Vector 4@2x.png" alt="" class="free__img">
+                    <p class="free__text">При замовленні від <span class="free__red">700 грн </span>, доставка
+                        безкоштовна</p>
+                </div>
             </div>
-        </header>
+        </div>
+
+        <div class="popular__dishes">
+            <div class="container">
+                <div class="menu">
+                    <img src="images/image 31.png" alt="" class="menu__basket">
+                    <h2 class="menu__title">Popular dishes</h2>
+                    <div class="menu__buttons">
+                        <a href="" class="buttons__btn">Pizza</a>
+                        <a href="" class="buttons__btn">Sushi</a>
+                        <a href="" class="buttons__btn">Salad</a>
+                        <a href="" class="buttons__btn">Dessert</a>
+                        <a href="" class="buttons__btn">Drinks</a>
+                    </div>
+                    <div class="menu__items">
+
+                        <div class="items__item">
+                            <img src="images/image 26.png" class="item__img"></img>
+                            <h4 class="item__title">Quattro formaggi<span class="item__title__size">32cm</span></h4>
+                            <p class="item__subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
+                            <p class="item__price">119 UAH</p>
+                            <img src="images/Group 5.png" alt="" class="item__pay">
+                        </div>
+
+                        <div class="items__item">
+                            <img src="images/image 26.png" class="item__img"></img>
+                            <h4 class="item__title">Карбонара<span class="item__title__size">32cm</span></h4>
+                            <p class="item__subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
+                            <p class="item__price">120 UAH</p>
+                            <img src="images/Group 5.png" alt="" class="item__pay">
+                        </div>
+
+                        <div class="items__item">
+                            <img src="images/image 26.png" class="item__img"></img>
+                            <h4 class="item__title">Філадельфія селмон<span class="item__title__size">32cm</span></h4>
+                            <p class="item__subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
+                            <p class="item__price">110 UAH</p>
+                            <img src="images/Group 5.png" alt="" class="item__pay">
+                        </div>
+
+                        <div class="items__item">
+                            <img src="images/image 26.png" class="item__img"></img>
+                            <h4 class="item__title">Ді маре<span class="item__title__size">32cm</span>
+                            </h4>
+                            <p class="item__subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
+                            <p class="item__price">125 UAH</p>
+                            <img src="images/Group 5.png" alt="" class="item__pay">
+                        </div>
+
+                        <div class="items__item">
+                            <img src="images/image 26.png" class="item__img"></img>
+                            <h4 class="item__title">Кватро panini<span class="item__title__size">32cm</span>
+                            </h4>
+                            <p class="item__subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
+                            <p class="item__price">130 UAH</p>
+                            <img src="images/Group 5.png" alt="" class="item__pay">
+                        </div>
+
+                        <div class="items__item">
+                            <img src="images/image 26.png" class="item__img"></img>
+                            <h4 class="item__title">Кватро формаджіо<span class="item__title__size">32cm</span></h4>
+                            <p class="item__subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
+                            <p class="item__price">149 UAH</p>
+                            <img src="images/Group 5.png" alt="" class="item__pay">
+                        </div>
+
+                        <div class="items__item">
+                            <img src="images/image 26.png" class="item__img"></img>
+                            <h4 class="item__title">Кватро italiano<span class="item__title__size">32cm</span></h4>
+                            <p class="item__subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
+                            <p class="item__price">109 UAH</p>
+                            <img src="images/Group 5.png" alt="" class="item__pay">
+                        </div>
+
+                        <div class="items__item">
+                            <img src="images/image 26.png" class="item__img"></img>
+                            <h4 class="item__title">Quattro formaggi<span class="item__title__size">32cm</span></h4>
+                            <p class="item__subtitle">Dough, Mozzarella, Cheddar, Blue, Parmesan</p>
+                            <p class="item__price">139 UAH</p>
+                            <img src="images/Group 5.png" alt="" class="item__pay">
+                        </div>
+                    </div>
+                </div>
+                <img src="images/more.png" alt="" class="menu__update">
+            </div>
+            <!--container-->
+        </div>
+        <!--popular__dishes-->
+        <div class="instagram">
+            <div class="instagram__foto">
+                <img src="images/Rectangle 1.jpg" alt="" class="foto__img">
+                <img src="images/Rectangle 2.jpg"" alt="" class=" foto__img">
+                <img src="images/Rectangle 3.jpg"" alt="" class=" foto__img">
+                <img src="images/Rectangle 4.jpg"" alt="" class=" foto__img">
+                <img src="images/Rectangle 5.jpg"" alt="" class=" foto__img">
+                <img src="images/Rectangle 6.jpg"" alt="" class=" foto__img">
+            </div>
+            <a href="" class="instagram__link"><span class="link__b">Instagram:</span> @classic_kovel</a>
+        </div>
+        <!--instagram-->
+        <div class="call__back">
+            <h2 class=" back__title">Fill out the form
+                and we will call you</h2>
+            <form action="" class="back__form">
+                <input class="form__input" type="text" value="Your name">
+                <input class="form__input" type="text" value="Phone number">
+                <a href="" class="form__btn">Сall back
+                    <img src="images/Vector 2.png" alt="" class="btn__img">
+                </a>
+            </form>
+        </div>
+        <div class="container">
+            <footer class="footer">
+                <div class="footer__copyright">© Classic Family Restaurant</div>
+                <div class="footer__image">
+                    <img src="images/logo classic.png" alt="" class="image__img">
+                </div>
+                <div class="footer__made">Made with delight by<span class="made__b">harmuder</span></div>
+
+            </footer>
+        </div>
     </div>
     <script src="js/main.js"></script>
 </body>
